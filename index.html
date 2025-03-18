@@ -4,6 +4,135 @@
     <title>Learning Hub</title>
   </head>
   <body>
+    font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Header */
+    header {
+      background: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      background: #444;
+    }
+
+    nav ul li {
+      padding: 10px 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Main Layout */
+    main {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .featured {
+      flex: 2;
+      background: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+
+    .featured article {
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    aside {
+      flex: 1;
+      background: white;
+      padding: 20px;
+      margin-left: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Tech Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Tech News</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="featured">
+      <h2>Featured Articles</h2>
+      
+      <!-- Article 1 -->
+      <article>
+        <h3>The Rise of Artificial Intelligence in 2025</h3>
+        <p>As we head into 2025, artificial intelligence continues to transform industries around the globe. From self-driving cars to personalized healthcare, AI is becoming an integral part of our daily lives. Experts believe that the next five years will be crucial in shaping the future of AI.</p>
+        <p><a href="#">Read more...</a></p>
+      </article>
+
+      <!-- Article 2 -->
+      <article>
+        <h3>5G Technology: What Does the Future Hold?</h3>
+        <p>The rollout of 5G networks promises faster internet speeds, lower latency, and greater connectivity. But how will this next-generation network impact everything from gaming to the Internet of Things (IoT)? Experts weigh in on the potential of 5G to revolutionize communication and data transmission.</p>
+        <p><a href="#">Read more...</a></p>
+      </article>
+
+      <!-- Article 3 -->
+      <article>
+        <h3>Top Smartphones of 2025</h3>
+        <p>With the tech world constantly evolving, 2025 is shaping up to be an exciting year for smartphone enthusiasts. From foldable screens to improved battery life, here's a look at some of the top phones expected to launch this year. Which one will you choose?</p>
+        <p><a href="#">Read more...</a></p>
+      </article>
+    </section>
+
+    <aside>
+      <h3>Related Links</h3>
+      <ul>
+        <li><a href="#">TechCrunch</a></li>
+        <li><a href="#">Gizmodo</a></li>
+        <li><a href="#">Wired</a></li>
+      </ul>
+
+      <h3>Tech Events</h3>
+      <ul>
+        <li><a href="#">CES 2025 - January 7-10, Las Vegas</a></li>
+        <li><a href="#">Mobile World Congress - February 26-29, Barcelona</a></li>
+        <li><a href="#">Google I/O 2025 - May 6-8, Mountain View</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Tech Website | All rights reserved</p>
+  </footer>
     <p>LEARNING HUB📚</p>
     <i></i>
     <h1>Welcome to Learning Hub</h1>
